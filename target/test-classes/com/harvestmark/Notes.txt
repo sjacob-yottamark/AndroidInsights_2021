@@ -1,0 +1,119 @@
+System.out.println(driver.getPageSource());
+
+instruments -s devices
+
+
+
+iPhone X (13.5) [A23CD105-27BF-46FE-8DA5-A80DDA0F8273] (Simulator)
+
+
+Sal’s iPhone (13.3.1) [954a019d7aefa77c45d9c14e9f0965b8b7330469]
+
+{ platform:iOS, id:954a019d7aefa77c45d9c14e9f0965b8b7330469, name:Sal’s iPhone }
+
+ios_webkit_debug_proxy -c 954a019d7aefa77c45d9c14e9f0965b8b7330469
+
+
+/Users/sjacob/Library/Android/sdk/tools/bin/uiautomatorviewer
+/Users/sjacob/Library/
+
+
+driver.findElementByAccessibilityId("Save").click();
+driver.findElement(By.id("com.trimble.harvestmark.insights:id/action_start")).click();
+driver.findElement(By.xpath("//android.widget.TextView[@content-desc=\"Save\"]")).click();
+driver.findElement(By.xpath("//*[contains(@text, '54 Hemco Rd')]")).click();
+
+
+
+find_element(id: "action_search")
+find_element(accessibility_id: "Open navigation drawer").click
+find_element(xpath: "//*[contains(@text, 'My conversions')]").click
+
+
+driver.findElement(MobileBy.xpath("//*[contains(@text,'Display text')]")).click();
+driver.findElement(MobileBy.xpath("//android.widget.LinearLayout/android.widget.Button[contains(@text,'Display text')]")).click();
+
+driver.findElement(MobileBy.xpath("//android.widget.ListView/android.widget.LinearLayout/android.widget.TextView[contains(@text,'South Portland')]")).click();
+
+driver.findElement(MobileBy.xpath("//android.widget.ListView[contains(@text,'54 Hemco Rd')]")).click();
+driver.findElement(MobileBy.xpath("//android.widget.ListView/android.widget.LinearLayout/android.widget.TextView[contains(@text,'54 Hemco Rd')]")).click();
+
+find_element(xpath: "//*[contains(@text, '54 Hemco Rd')]").click
+
+  List locations =  (List) driver.findElements(By.id("com.trimble.harvestmark.insights:id/locationListView"));
+	  for(WebElement AllLoc:locations) {
+		  System.out.println(AllLoc.getText());
+		  
+	  }
+	  
+	   //waitorderdata.until(ExpectedConditions.visibilityOfElementLocated(By.id("android:id/message")));
+	  //String odmsg = driver.findElement(By.id("android:id/message")).getText();
+	  
+	  
+	 /**
+      boolean element = driver.findElement(By.xpath("//*[contains(@text, 'Select Origin')]")).isDisplayed(); 
+      System.out.println(element + " Element Value");
+      
+      if(driver.findElement(By.xpath("//*[contains(@text, 'Select Origin')]")).isDisplayed()) {
+    	  System.out.println(" Inside If Statement");
+    	  Android_Automation.RatingScreen.SelectOrigin(1);  
+      } else { 
+    	  System.out.println("Executing Else Statement");
+    	  Android_Automation.scroolToText(brand_name);
+    	  System.out.println("Executed scroolToTex"); 
+      }
+      **/  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  //WebElement location = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.trimble.harvestmark.insights:id/locationAddressTextView")));
+	  //System.out.println("Inside LocationsScreen Function");
+      //driver.findElement(By.xpath
+              //("//android.view.View[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[" + index  + "]/android.widget.TextView[1]")).click();
+                      //("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout[7]")).click();
+      //System.out.println("Clicked on find by Xpath LocationsScreen");
+	  
+	  
+	  //driver.findElement(MobileBy.xpath("//*[@text='54 Hemco Rd, South Portland, ME 4106']")).click();
+	  
+	  //WebElement location = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.trimble.harvestmark.insights:id/selectStoreText")));
+	  
+	  //com.trimble.harvestmark.insights:id/locationTextView
+	  
+	  //System.out.println(location);
+	  
+	  //driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\""+southportland+"\").instance(0))").click();
+	  
+	  
+	  //WebDriverWait wait = new WebDriverWait(driver, 300);
+	  //WebElement location = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.trimble.harvestmark.insights:id/selectStoreText")));
+	  //WebElement location = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.trimble.harvestmark.insights:id/selectStoreText")));
+	  
+	 
+	  
+	  //Android_Automation.LocationsScreen(6);
+	  //System.out.println("Location Selected");
+	  
+	  //WebElement mobileElement =  (WebElement) driver.findElementByClassName("android.widget.TextView");
+	  //wait.until(ExpectedConditions.visibilityOf(mobileElement));
+	  //MobileElement element = (MobileElement) driver.findElementByClassName("android.widget.TextView");
+	  //String elText = element.getText();
+	  //System.out.println(elText);
+	  //Android_Automation.scroolToText(southportland);
+	  //Android_Automation.LocationsScreen(6);
+	  
+	  

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-04T15:30:26 PST" name="Default suite" finished-at="2020-12-04T15:42:21 PST" duration-ms="714344">
+    <groups>
+    </groups>
+    <test started-at="2020-12-04T15:30:26 PST" name="Default test" finished-at="2020-12-04T15:42:21 PST" duration-ms="714344">
+      <class name="com.harvestmark.Delhaize_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.harvestmark.Delhaize_Test@2fd6b6c7]" started-at="2020-12-04T15:30:26 PST" name="setup" finished-at="2020-12-04T15:30:48 PST" duration-ms="21810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Delhaize()[pri:0, instance:com.harvestmark.Delhaize_Test@2fd6b6c7]" started-at="2020-12-04T15:30:48 PST" name="Delhaize" finished-at="2020-12-04T15:42:21 PST" duration-ms="692462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delhaize -->
+      </class> <!-- com.harvestmark.Delhaize_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
